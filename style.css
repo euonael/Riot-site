@@ -265,7 +265,7 @@ header a{
         bottom: 50px;
     }
 /*PARA MOBILE*/
-    @media screen and (max-width: 768px){
+   /* @media screen and (max-width: 768px){
     
     header a{
         color: #eeeeee;
@@ -352,4 +352,4 @@ header a{
 
 }
     
-}
+}*/

@@ -131,9 +131,11 @@ header a{
     filter: brightness(80%);
 }
 
+/*
 .container .thumb .thumb-item img:hover{
     height: 110%;
 }
+*/
 
 .container .thumb .content{
     position: absolute;

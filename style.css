@@ -85,7 +85,7 @@ header a{
         & a {
         color: #000;
         text-decoration: none;
-}
+    }
 }
 
 .container .list .list-item .buttons button:hover{
@@ -93,13 +93,6 @@ header a{
     border: 1px solid #eeeeee;
     color:#eeeeee;
     transition: 0.8s;
-
-    & a {
-    background-color: transparent;
-    border: 1px solid #eeeeee;
-    color:#eeeeee;
-    transition: 0.8s;
-}
 
 .container .list .list-item .buttons button:nth-child(2){
     background-color: transparent;

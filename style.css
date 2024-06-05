@@ -82,11 +82,9 @@ header a{
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
-}
-
-.container .list .list-item .buttons button a{
-    text-decoration: none;
-    color: #000000;
+    & a {
+        color: #000000;
+    }
 }
 
 .container .list .list-item .buttons button:hover{
@@ -94,6 +92,9 @@ header a{
     border: 1px solid #eeeeee;
     color:#eeeeee;
     transition: 0.8s;
+    & a {
+        color: #eeeeee;
+    }
 }
 
 .container .list .list-item .buttons button:nth-child(2){

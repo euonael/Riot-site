@@ -2,6 +2,16 @@
 <hr>
 <img src="https://github.com/euonael/Riot-site/assets/95258490/ce1dddd8-46f1-4159-84df-d4d333b95364"> 
 
+<h1>Arquivos</h1>
+<hr>
+<ul>
+  <li>HTML - index</li>
+  <li>CSS - style</li>
+  <li>JS - script</li>
+  <li>Imagens - img pasta</li>
+</ul>
+<hr>
+
 <h1> Como Instalar </h1>
 <hr>
 <ul>

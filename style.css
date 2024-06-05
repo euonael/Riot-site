@@ -84,28 +84,25 @@ header a{
     text-transform: uppercase;
 }
 
-.container .list .list-item .buttons button a{
-    text-decoration: none;
-    color: #000000;
-}
-
-.container .list .list-item .buttons button:hover{
-    background-color: transparent;
-    border: 1px solid #eeeeee;
-    color:#eeeeee;
-    transition: 0.8s;
-}
-
 .container .list .list-item .buttons button:nth-child(2){
     background-color: transparent;
     border: 1px solid #eeeeee;
-    color: #eeeeee;
+    color:#eeeeee; 
+    
+    & a {
+        color: #eeeeee;
+    }
 }
 
 .container .list .list-item .buttons button:nth-child(2):hover{
+    color:#000000;
     background-color: #eeeeee;
-    color: #000000;
     transition: 0.8s;
+   
+    & a {
+        color: #000000;
+        transition: 0.8s;
+    }
 }
 
 .container .thumb{

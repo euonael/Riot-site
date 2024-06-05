@@ -73,7 +73,6 @@ header a{
     grid-template-rows: 50px;
     margin-top: 20px;
     gap: 5px;
-}
 
 .container .list .list-item .buttons button{
     border: none;
@@ -82,6 +81,24 @@ header a{
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
+
+        & a {
+        color: #000;
+        text-decoration: none;
+}
+}
+
+.container .list .list-item .buttons button:hover{
+    background-color: transparent;
+    border: 1px solid #eeeeee;
+    color:#eeeeee;
+    transition: 0.8s;
+
+    & a {
+    background-color: transparent;
+    border: 1px solid #eeeeee;
+    color:#eeeeee;
+    transition: 0.8s;
 }
 
 .container .list .list-item .buttons button:nth-child(2){
